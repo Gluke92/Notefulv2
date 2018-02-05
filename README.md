@@ -10,19 +10,22 @@ title
 link
 description
 rating (1-5)
+
 I can see a list of my bookmarks when I first open the app
 
-All bookmarks in the list default to a "condensed" view showing only title and rating
+All bookmarks in the list default to a "condensed" view showing only title and rating [use detailed:false value for this]
 
-I can click on a bookmark to display the "detailed" view
+I can click on a bookmark to display the "detailed" view [detailed: true]
 
 Detailed view expands to additionally display description and a "Visit Site" link
+[expand detailed: true]
 
-I can remove bookmarks from my bookmark list
+I can remove bookmarks from my bookmark list [delete button]
 
 I can select from a dropdown a "minimum rating" to filter the list by all bookmarks rated above the chosen selection
+[use what you used in the "search filter functionality" on the bookmark app: ratings: ' ' (fill it in with the value from the form)]
 
-(Extension) I can edit the rating and description of a bookmark in my list
+(Extension) I can edit the rating and description of a bookmark in my list [use the 'edit' functionality from the bookmark app]
 
 Process
 Before coding anything, think about your user flow. What does the initial loaded page look like? What is each action a user can take and how does it affect the visual layout?
@@ -53,3 +56,5 @@ Use responsive design
 Follow a11y best practices
 
 Refer back to the lessons on accessibility, forms, and AJAX and Aria Live for help
+
+[huh! Look at the form stuff here]
